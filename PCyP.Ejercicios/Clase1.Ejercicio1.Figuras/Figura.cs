@@ -6,8 +6,11 @@ using System.Threading.Tasks;
 
 namespace Clase1.Ejercicio1.Figuras
 {
-    public class Figura
+    public abstract class Figura
     {
-        private List<int>lados;
+        protected List<int>lados { get; set; }
+
+        public abstract double calcularPerimetro();
+        public abstract double calcularArea();
     }
 }
