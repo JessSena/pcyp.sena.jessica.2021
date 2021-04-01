@@ -37,7 +37,9 @@ namespace Clase1.Ejercicio2.Vial.csv
         //método para imprimir los campos de la línea.
         public void imprimir()
         {
-          
+            Console.WriteLine("Número de hoja: {0}\tTipo de objeto: {1},\tIdentificador de Tramo: {2},\tTipo de Camino: {3},\tLongitud: {4}", 
+                numHoja, tipoObj, idTramo, tipoCamino, longitud);
+           
         }
     }
 }
