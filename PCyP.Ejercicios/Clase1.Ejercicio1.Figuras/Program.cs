@@ -14,7 +14,67 @@ namespace Clase1.Ejercicio1.Figuras
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hola Mundo!!!");
+            int sel, lado, bas, alt, l1, l2, l3;
+
+            List<int> datos= new List<int>(); ;
+
+            Console.WriteLine("--------Bienvenido al programa de cálculo de Perímetro y Área de Figuras--------");
+            Console.WriteLine("Seleccione una figura: ");
+            Console.WriteLine("1. Cuadrado");
+            Console.WriteLine("2. Rectángulo");
+            Console.WriteLine("3. Triángulo");
+            sel = Convert.ToInt32(Console.ReadLine());
+
+            switch (sel)
+            {
+                case 1:
+                    Console.WriteLine("Ingrese el lado del Cuadrado: ");
+                    lado = Convert.ToInt32(Console.ReadLine());
+                    datos.Add(lado);
+
+                    Cuadrado c = new Cuadrado(datos);
+          
+                    Console.WriteLine("El Perímetro del Cuadrado es " + c.calcularPerimetro());
+                    Console.WriteLine("El Área del Cuadrado es " + c.calcularArea());
+                    Console.Read();
+
+                    break;
+                case 2:
+                    Console.WriteLine("Ingrese la base del Rectángulo: ");
+                    bas = Convert.ToInt32(Console.ReadLine());
+                    datos.Add(bas);
+                    Console.WriteLine("Ingrese la altura del Rectángulo: ");
+                    alt = Convert.ToInt32(Console.ReadLine());
+                    datos.Add(alt);
+
+                    Rectangulo r = new Rectangulo(datos);
+
+                    Console.WriteLine("El Perímetro del Rectángulo es " + r.calcularPerimetro());
+                    Console.WriteLine("El Área del Rectángulo es " + r.calcularArea());
+                    Console.Read();
+
+                    break;
+                case 3:
+                    Console.WriteLine("Ingrese el lado 1 del Triángulo: ");
+                    l1 = Convert.ToInt32(Console.ReadLine());
+                    datos.Add(l1);
+
+                    Console.WriteLine("Ingrese el lado 2 del Triángulo: ");
+                    l2 = Convert.ToInt32(Console.ReadLine());
+                    datos.Add(l2);
+
+                    Console.WriteLine("Ingrese el lado 3 del Triángulo: ");
+                    l3 = Convert.ToInt32(Console.ReadLine());
+                    datos.Add(l3);
+
+                    Triangulo t = new Triangulo(datos);
+
+                    Console.WriteLine("El Perímetro del Triángulo es " + t.calcularPerimetro());
+                    Console.WriteLine("El Área del Triángulo es " + t.calcularArea());
+                    Console.Read();
+
+                    break;
+            }
         }
     }
 }
