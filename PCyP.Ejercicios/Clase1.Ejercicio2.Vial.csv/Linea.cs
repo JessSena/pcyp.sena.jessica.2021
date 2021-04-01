@@ -6,6 +6,11 @@ using System.Threading.Tasks;
 
 namespace Clase1.Ejercicio2.Vial.csv
 {
+    /// <summary>
+    /// La clase Linea posee como atributo cada uno de los diferentes campos de cada línea y 
+    /// el método imprimir se encarga de mostrarlos con sus correspondientes identificadores.
+    /// </summary>
+    /// 
     class Linea
     {
         //atributos
