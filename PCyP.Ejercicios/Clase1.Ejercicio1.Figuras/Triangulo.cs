@@ -8,6 +8,12 @@ namespace Clase1.Ejercicio1.Figuras
 {
     public class Triangulo : Figura
     {
+        /// <summary>
+        /// La clase Triangulo hereda de la clase Figura, sobreescribe sus métodos 
+        /// y aplica los cálculos necesarios para obtener su Perímetro y Área.
+        /// </summary>
+
+
         //constructor
         public Triangulo(List<int> lados)
         {
