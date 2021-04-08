@@ -24,8 +24,49 @@ namespace Clase3.Ejercicio1.Diccionario
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hola Mundo.Dicccionario!");
+            
+            Dictionary<string, string> documentos = new Dictionary<string, string>();
+            
+            documentos.Add("Juan", "55423412");
+            documentos.Add("Ernesto", "56985623");
+            documentos.Add("Mariana", "54787451");
+
+                //punto a 
+
+                if (documentos.ContainsKey("Juan"))
+                {
+                Console.WriteLine("Para:\"Juan\", el valor es: {0}.", documentos["Juan"]);    
+                }
+
+
+                 //punto b
+
+                 string valor = "";
+
+                 if (documentos.TryGetValue("Pedro", out valor))
+                 {
+                     Console.WriteLine("Para = \"Pedro\", el valor es : {0}.", valor);
+                 }
+
+                 else
+                 {
+                     Console.WriteLine("No contiene la llave.");
+                 }
+
+
+                 //punto c
+
+                 foreach (var persona in documentos)
+                    {
+                     Console.WriteLine(persona.Key + "," + persona.Value);
+                    }
+ 
+                //punto d 
+
+            documentos["Mariana"] = "58251425";
+            Console.WriteLine("Nuevo teléfono de Mariana: {0}", documentos["Mariana"]);
             Console.Read();
+
         }
     }
 }
