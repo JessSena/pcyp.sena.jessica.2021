@@ -5,7 +5,10 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace Clase5.EjercicioMatrices
-{
+{/// <summary>
+/// Desarrolle un software que dado dos matrices las multiplique. 
+/// Recordar realizar la verificación previa para saber si las matrices son multiplicables.
+/// </summary>
     class Program
     {
         static void Main(string[] args)
