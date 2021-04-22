@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clase3.Ejercicio3.ContadorP
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clase3.Ejercicio4.Netflix", "Clase3.Ejercicio4.Netflix\Clase3.Ejercicio4.Netflix.csproj", "{29A559AB-CAB0-4931-9FE7-371D6A60C9AB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clase5.EjercicioMatrices", "Clase5.EjercicioMatrices\Clase5.EjercicioMatrices.csproj", "{375F0659-693F-4A24-8677-A8D309FFD81A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{29A559AB-CAB0-4931-9FE7-371D6A60C9AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{29A559AB-CAB0-4931-9FE7-371D6A60C9AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{29A559AB-CAB0-4931-9FE7-371D6A60C9AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{375F0659-693F-4A24-8677-A8D309FFD81A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{375F0659-693F-4A24-8677-A8D309FFD81A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{375F0659-693F-4A24-8677-A8D309FFD81A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{375F0659-693F-4A24-8677-A8D309FFD81A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
