@@ -5,7 +5,10 @@ using System.Linq;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
-
+/// <summary>
+/// Implementación del patrón WaitAllOneByOne cocechando resultados a medida que las tareas van finalizando
+/// su ejecución, también se pone en práctica el uso de StopWatch para cálculo del tiempo del algoritmo
+/// </summary>
 namespace Clase9.WaitAllOneByOne
 {
     class Program
