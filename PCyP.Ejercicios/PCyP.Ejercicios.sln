@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clase5.EjercicioMatrices", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clase9.WaitAllOneByOne", "Clase9.WaitAllOneByOne\Clase9.WaitAllOneByOne.csproj", "{49B9CFB7-9D65-4EAE-B6B3-42887936E783}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clase10.Dataflow", "Clase10.Dataflow\Clase10.Dataflow.csproj", "{0F51BC2D-319A-4947-B2C9-522A01BA976C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,10 @@ Global
 		{49B9CFB7-9D65-4EAE-B6B3-42887936E783}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{49B9CFB7-9D65-4EAE-B6B3-42887936E783}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{49B9CFB7-9D65-4EAE-B6B3-42887936E783}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F51BC2D-319A-4947-B2C9-522A01BA976C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F51BC2D-319A-4947-B2C9-522A01BA976C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F51BC2D-319A-4947-B2C9-522A01BA976C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F51BC2D-319A-4947-B2C9-522A01BA976C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
