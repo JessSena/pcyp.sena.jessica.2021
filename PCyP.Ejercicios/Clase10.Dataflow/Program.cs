@@ -6,6 +6,9 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
+/// <summary>
+/// Implementación del patrón Dataflow para cálculo de promedio de precios.
+/// </summary>
 namespace Clase10.Dataflow
 {
     class Program
